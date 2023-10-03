@@ -1,0 +1,6 @@
+﻿  Variablen.cpp
+U:\Programming\C\Learning C\Variablen\Variablen\Variablen.cpp(4,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+U:\Programming\C\Learning C\Variablen\Variablen\Variablen.cpp(14,22): warning C4305: "Initialisierung": Verkürzung von "double" in "float"
+U:\Programming\C\Learning C\Variablen\Variablen\Variablen.cpp(22,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+U:\Programming\C\Learning C\Variablen\Variablen\Variablen.cpp(26,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Variablen.vcxproj -> U:\Programming\C\Learning C\Variablen\Debug\Variablen.exe

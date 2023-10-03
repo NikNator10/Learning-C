@@ -1,0 +1,5 @@
+﻿  2chel dollar.cpp
+U:\Programming\C\Learning C\2chel dollar\2chel dollar.cpp(7,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+U:\Programming\C\Learning C\2chel dollar\2chel dollar.cpp(15,16): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+U:\Programming\C\Learning C\2chel dollar\2chel dollar.cpp(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2chel dollar.vcxproj -> U:\Programming\C\Learning C\2chel dollar\Debug\2chel dollar.exe

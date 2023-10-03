@@ -1,0 +1,5 @@
+﻿  hypthenuse katheten.cpp
+U:\Programming\C\Learning C\hypthenuse katheten\hypthenuse katheten.cpp(15,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+U:\Programming\C\Learning C\hypthenuse katheten\hypthenuse katheten.cpp(12,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+U:\Programming\C\Learning C\hypthenuse katheten\hypthenuse katheten.cpp(14,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  hypthenuse katheten.vcxproj -> U:\Programming\C\Learning C\hypthenuse katheten\Debug\hypthenuse katheten.exe
