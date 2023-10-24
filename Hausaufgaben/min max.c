@@ -20,7 +20,7 @@ int max(int array[], int size) {
 	return max;
 }
 
-void main() {
+void main(void) {
 	int a[] = { 855677, 43, 54498789, 468,6943,7,34,5 };
 	int sz = sizeof(a) / sizeof(int);
 	int x = min(a, sz);
