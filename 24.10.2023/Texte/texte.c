@@ -27,4 +27,48 @@ int main()
     // for (len = 0; text3[len] != 0; len++); nicht elegante Möglichkeit, da len vorher definiert werden muss und die leere Anweisung
     //                                        wird wiederholt
     printf("Meine Eingabe ist %d Zeichen lang\n", len);
+
+    // Wieviele Wörter hat der eingegebene Text?
+    // Leerzeichen(' ') abzählen + 1
+    int worte = 0; // Zählvariable
+    int a = 0;
+    while (text3[a] != 0)
+    {
+        if (text3[a] == ' ')
+            worte++;
+        a++;
+    }
+
+    printf("Theoretisch %d Worte\n", worte + 1);
+
+    a = 0;
+    worte = 0;
+    // Führende Leerzeichen ignorieren
+    while (text3[a] == ' ')
+        a++;
+    // Text durchlaufen
+    while (text3[a] != 0)
+    {
+        if (text3[a] == ' ')
+        {
+            worte++;
+            // Mehrfache Leerzeichen im Text ignorieren
+            while (text3[a] == ' ')
+            {
+                a++;
+            }
+        }
+        else
+            a++;
+    }
+
+    // Nachfolgende Leerzeichen ignorieren
+    if (a > 0)
+    {
+        if (text3[a - 1] == ' ')
+            worte--;
+        worte++;
+    }
+
+    printf("Praktisch %d Worte\n", worte);
 }
