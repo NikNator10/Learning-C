@@ -9,7 +9,7 @@
 // 2. Variante: ohne Hilfsfeld
 //		Text ab der Position um 1 Element vor kopieren
 // zB: Text: Halllo Position: 3 -> Hallo
-void main(){
+int main(){
 	
 	char text[100];
 	char kopie[100];
